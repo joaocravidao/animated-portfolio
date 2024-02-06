@@ -51,7 +51,7 @@ const Services = () => {
             <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
             Business.
           </h1>
-          <button>WHAT I DO?</button>
+          <button>What I Do?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -59,7 +59,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Javascript</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
             architecto consectetur saepe placeat molestiae, fugit culpa nostrum
@@ -72,7 +72,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>HTML</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
             architecto consectetur saepe placeat molestiae, fugit culpa nostrum
@@ -85,7 +85,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>CSS</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
             architecto consectetur saepe placeat molestiae, fugit culpa nostrum
@@ -98,7 +98,7 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Next.js</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
             architecto consectetur saepe placeat molestiae, fugit culpa nostrum
