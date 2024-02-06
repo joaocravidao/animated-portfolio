@@ -34,24 +34,18 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          These are the technologies
+          <br /> I use in my projects
         </p>
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
         <div className="title">
           <img src="/people.webp" alt="" />
+          <br />
           <h1>
-            <motion.b whileHover={{ color: "orange" }}>Unique</motion.b> Ideas
+            <motion.b whileHover={{ color: "orange" }}>Technologies</motion.b>
           </h1>
-        </div>
-        <div className="title">
-          <h1>
-            <motion.b whileHover={{ color: "orange" }}>For Your</motion.b>{" "}
-            Business.
-          </h1>
-          <button>What I Do?</button>
         </div>
       </motion.div>
       <motion.div className="listContainer" variants={variants}>
@@ -60,52 +54,58 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Javascript</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-            architecto consectetur saepe placeat molestiae, fugit culpa nostrum
-            quidem accusantium sit ab minus deserunt reprehenderit provident
-            rerum est vitae adipisci sed!
-          </p>
-          <button>Go</button>
+          <img src="/javascript.jpg" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>HTML</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-            architecto consectetur saepe placeat molestiae, fugit culpa nostrum
-            quidem accusantium sit ab minus deserunt reprehenderit provident
-            rerum est vitae adipisci sed!
-          </p>
-          <button>Go</button>
+          <img src="/html.png" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>CSS</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-            architecto consectetur saepe placeat molestiae, fugit culpa nostrum
-            quidem accusantium sit ab minus deserunt reprehenderit provident
-            rerum est vitae adipisci sed!
-          </p>
-          <button>Go</button>
+          <img src="/css.png" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Next.js</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi
-            architecto consectetur saepe placeat molestiae, fugit culpa nostrum
-            quidem accusantium sit ab minus deserunt reprehenderit provident
-            rerum est vitae adipisci sed!
-          </p>
-          <button>Go</button>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>React</h2>
+          <img src="/react.png" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>MongoDB</h2>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Node.js</h2>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Three.js</h2>
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Framer Motion</h2>
         </motion.div>
       </motion.div>
     </motion.div>
