@@ -75,6 +75,7 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Next.js</h2>
+          <img src="/nextjs.png" />
         </motion.div>
         <motion.div
           className="box"
@@ -88,24 +89,35 @@ const Services = () => {
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>MongoDB</h2>
+          <img src="/mongodb.jpg" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Node.js</h2>
+          <img src="/nodejs.png" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Three.js</h2>
+          <img src="/threejs.png" />
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
           <h2>Framer Motion</h2>
+          <img src="/framermotion.jpg" />
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Tailwind</h2>
+          <img src="/tailwind.png" />
         </motion.div>
       </motion.div>
     </motion.div>
