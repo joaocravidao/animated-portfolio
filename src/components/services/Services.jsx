@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./services.scss";
+import "./technologies.scss";
 import { motion, useInView } from "framer-motion";
 
 const variants = {
@@ -19,14 +19,14 @@ const variants = {
   },
 };
 
-const Services = () => {
+const Technologies = () => {
   const ref = useRef();
 
   const isInView = useInView(ref, { margin: "-100px" });
 
   return (
     <motion.div
-      className="services"
+      className="technologies"
       variants={variants}
       initial="initial"
       ref={ref}
@@ -124,4 +124,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default Technologies;
